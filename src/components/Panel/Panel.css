@@ -1,0 +1,75 @@
+.panel {
+    width: 400px;
+    height: 600px;
+    border: none;
+    background-color: #dfe6e9;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 30px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.panel__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.panel__header > h1 {
+    display: inline-block;
+    color: #636e72;
+}
+
+.panel__avatar {
+    width: 45px !important;
+    height: 45px !important;
+}
+
+.panel__toDosConatiner {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color: #fff;
+    overflow: auto;
+    flex: 1;
+    border-radius: 3px;
+    scroll-behavior: smooth;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 5px #d2dae2 inset, -5px 5px 5px #d2dae2 inset;
+    padding: 5px;
+}
+
+.panel__footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.panel__openModalBtn {
+    flex: 0.2; 
+    margin-top: 10px !important;
+    border-radius: 0 5px 5px 20px !important;
+}
+
+.panel__homeBtn {
+    flex: 0.8; 
+    margin-top: 10px !important;
+    border-radius: 5px !important;
+    margin-right: 5px !important;
+    margin-left: 5px !important;
+    color: #636e72 !important;
+    background-color: #b2bec3 !important;
+}
+
+.panel__logoutBtn {
+    flex: 0.2;
+    margin-top: 10px !important;
+    border-radius: 5px 0 20px 5px !important;
+}
+
+
+@media (max-width: 500px) {
+    .panel {
+        height: 100vh;
+        width: 100vw;
+    }
+}

@@ -1,0 +1,53 @@
+.toDo {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 20px;
+    color: rgba(61, 61, 61, 0.76);
+    box-shadow: 5px 5px 5px #d2dae2;
+}
+
+.notDone {
+    background-color: #ff7979;
+}
+
+.inProgress {
+    background-color: #ffc048;
+}
+
+.done {
+    background-color: #badc58;
+}
+
+.toDo__textWrapper {
+    flex: 1;
+    padding: 5px 10px;
+}
+
+.toDo__timestamp {
+    font-size: 14px;
+    color: rgba(59, 59, 59, 0.774);
+}
+
+.toDo__btnWrapper {
+    flex: 0;
+    display: flex;
+}
+
+.toDo__btnEdit {
+    margin-right: auto !important;
+    color: #575fcf !important;
+}
+
+.toDo__btnDone {
+    color: #00b894 !important;
+}
+
+.toDo__btnProgress {
+    color: #f39c12 !important;
+}
+
+.toDo__btnDelete {
+    color: #d63031 !important;
+}
